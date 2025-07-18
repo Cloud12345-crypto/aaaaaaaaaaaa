@@ -94,7 +94,7 @@ def show_banner():
     for line in banner.splitlines():
         print(Fore.RED + line.center(width) + Fore.RESET)
     log("Bypass : discord.gg/x01", "success")
-    log("Last Updated : 17.07.2025 | Undetected - Safe", "success")
+    log("Last Updated : 18.07.2025 | Undetected - Safe", "success")
     log("", "step")
 
     
