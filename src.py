@@ -93,7 +93,7 @@ def show_banner():
     width = shutil.get_terminal_size().columns
     for line in banner.splitlines():
         print(Fore.RED + line.center(width) + Fore.RESET)
-    log("Bypass : discord.gg/x01", "success")
+    log("Bypass : discord.gg/x01bypass", "success")
     log("Last Updated : 18.07.2025 | Undetected - Safe", "success")
     log("", "step")
 
