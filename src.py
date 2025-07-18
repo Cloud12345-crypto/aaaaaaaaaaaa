@@ -35,6 +35,8 @@ suspended_threads = []
 
 # ==================== UI & LICENSE ====================
 
+class LUID(ctypes.Structure):
+    _fields_ = [("LowPart", ctypes.c_ulong), ("HighPart", ctypes.c_long)]
 
 def set_cmd_font_to_courier_new():
     try:
